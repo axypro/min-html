@@ -1,0 +1,25 @@
+{
+    "name": "axy/min-html",
+    "type": "library",
+    "description": "Compress HTML",
+    "keywords": [
+        "HTML",
+        "Compress"
+    ],
+    "homepage": "https://github.com/axypro/min-html",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Grigoriev",
+            "email": "go.vasac@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "axy\\min\\html\\": ""
+        }
+    }
+}
