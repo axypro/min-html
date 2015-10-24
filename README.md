@@ -2,8 +2,8 @@
 
 Compress HTML.
 
-* GitHub: [axypro/errors](https://github.com/axypro/min-html)
-* Composer: [axy/errors](https://packagist.org/packages/axy/min-html)
+* GitHub: [axypro/min-html](https://github.com/axypro/min-html)
+* Composer: [axy/min-html](https://packagist.org/packages/axy/min-html)
 
 PHP 5.4+
 
