@@ -1,5 +1,9 @@
 # axy\min\html
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/axy/min-html.svg?style=flat-square)](https://packagist.org/packages/axy/min-html)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.4-8892BF.svg?style=flat-square)](https://php.net/)
+[![Build Status](https://img.shields.io/travis/axypro/min-html/master.svg?style=flat-square)](https://travis-ci.org/axypro/min-html)
+
 Compress HTML.
 
 * GitHub: [axypro/min-html](https://github.com/axypro/min-html)
