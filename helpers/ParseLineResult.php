@@ -19,7 +19,7 @@ class ParseLineResult
     public $before;
 
     /**
-     * The line content after of $tag content (or emptry if $tag is empty)
+     * The line content after of $tag content (or empty if $tag is empty)
      *
      * @var string
      */

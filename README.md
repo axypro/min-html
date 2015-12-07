@@ -13,7 +13,7 @@ PHP 5.4+
 
 Library does not require any dependencies (except composer packages).
 
-## Сompression
+## Compression
 
 Simply removes the indentation at the beginning and end of lines.
 With some exceptions:

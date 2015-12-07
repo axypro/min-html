@@ -145,7 +145,6 @@ class HTMLMinifier
                     continue;
                 }
                 $content[] = $r->before;
-                $line = $r->after;
                 $result[] = Parser::process($content, $this->tags[$tag]);
                 $tag = null;
                 $content = null;
