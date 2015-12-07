@@ -5,3 +5,4 @@ phpunit.xml
 phpmd.xml
 tests/tmp/*
 !tests/tmp/.gitkeep
+build/*
