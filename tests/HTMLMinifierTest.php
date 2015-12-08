@@ -98,11 +98,20 @@ class HTMLMinifierTest extends \PHPUnit_Framework_TestCase
             $content = file_get_contents($fn);
             $content = explode('-----', $content, 2);
             return (object)[
-                'origin' => trim($content[0]),
-                'expected' => trim($content[1]),
+                'origin' => $this->fixNL(trim($content[0])),
+                'expected' => $this->fixNL(trim($content[1])),
             ];
         }
         return $this->cacheFiles[$name];
+    }
+
+    /**
+     * @param string $str
+     * @return string
+     */
+    private function fixNL($str)
+    {
+        return str_replace("\r\n", "\n", $str);
     }
 
     /**
