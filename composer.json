@@ -21,5 +21,8 @@
         "psr-4": {
             "axy\\min\\html\\": ""
         }
+    },
+    "archive": {
+        "exclude": ["/tests/*", "/doc/*", "/cs.sh", "/phpmd.sh", "/*.xml.dist", "/CHANGELOG.md"]
     }
 }
